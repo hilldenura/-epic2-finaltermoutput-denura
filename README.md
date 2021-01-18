@@ -8,7 +8,9 @@ So i searched some references on parol designs and i applied it to my mandala pa
 The references that i used for the codes in my mandala output are:
 
 https://www.youtube.com/watch?v=o9sgjuh-CBM&t=1s
+
 https://www.youtube.com/watch?v=se9rsp2VMWk&t=56s
+
 https://www.youtube.com/watch?v=76fiD5DvzeQ
 
 If there was no pandemic, i would love to learn more about how to make beautiful designs using 
