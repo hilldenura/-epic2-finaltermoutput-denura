@@ -1,0 +1,96 @@
+// MANDALA MIDTERM OUTPUT
+// DENURA, HILARY ANN
+// BSEMC 2A
+const CIRCLE = 400
+const SIDES = 18
+const angle = 360 / SIDES
+const Koro = 18
+const Koros = 360 / Koro
+const op = 36
+const ops = 360 / op
+function setup() {
+  createCanvas(530, 530);
+  angleMode(DEGREES)
+  rectMode(CENTER)
+}
+function draw() {
+background("#d23b68");
+push()
+translate(width/2, height/2)
+strokeWeight(2);
+ellipse(0, 0, 400, 400)
+for (let i = 0; i < SIDES; i++) {ellipse(0, 198.5, 55, 6)  
+push()
+line(26,197, 44, 196)
+line(27,199.5, 45, 193)
+pop()
+push()
+line(45,183, 52, 188)
+line(-45,183, -52, 188)
+pop()
+push()
+strokeWeight(2);fill(255)
+ellipse(93, 160, 25, 25)
+pop()
+rotate(angle)}
+pop()
+push()
+translate(width/2, height/2)
+for (let i = 0; i < Koro; i++) {strokeWeight(2);
+push()
+fill(255)
+stroke(255)
+ellipse(91.1, 168, 12,12)
+ellipse(100.5, 162, 12,12)
+ellipse(96, 165, 12,12)
+pop()
+ellipse(0, 90, 15, 40)
+push()
+fill(255)
+stroke(255)
+ellipse(0, 102, 25, 25)
+pop()
+rotate(Koros)}
+pop()  
+push()
+translate(width/2, height/2)
+for (let i = 0; i < Koro; i++) {strokeWeight(2);
+line(-7.6,90, 0, 120)
+line(7.6,90, 0, 120)  
+push()
+fill(255)
+stroke(255)
+ellipse(-11.5, 91, 5, 5)
+ellipse(11.5, 91, 5, 5)
+pop() 
+push()
+line(0,122, 0, 131) 
+line(45,123, 0, 195) 
+line(-45,123, 0, 195) 
+pop()
+rotate(Koros)}
+pop()  
+push()
+translate(width/2, height/2)
+for (let i = 0; i < Koro; i++) {strokeWeight(2);
+arc(0, 60,19,20, 0,180);
+rotate(Koros)}
+pop()  
+push()
+translate(width/2, height/2)
+for (let i = 0; i < Koro; i++) {strokeWeight(2);
+line(-2,25, 10, 60)
+line(2,25, -10, 60)
+rotate(Koros)}
+pop()
+push()
+translate(width/2, height/2)
+for (let i = 0; i < Koro; i++) {strokeWeight(2);
+ellipse(0, 22, 4, 25)
+rotate(Koros)}
+pop()
+push()
+translate(width/2, height/2)
+strokeWeight(2);
+ellipse(0, 0, 15, 15)
+pop()}
