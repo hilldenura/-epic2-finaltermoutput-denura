@@ -1,7 +1,7 @@
 # -epic2-finaltermoutput-denura
 Creating a Mandala Pattern Output using the p5.js Web Editor.
 
-I created ny mandala output using the p5.js web editor. The design that i chose is a Star Mandal that is usually seen in parols. 
+I created ny mandala output using the p5.js web editor. The design that i chose is a Star Mandala that is usually seen in parols. 
 I am always fascinated by the designs that the makers of parols use for their work.
 So i searched some references on parol designs and i applied it to my mandala pattern. 
 
